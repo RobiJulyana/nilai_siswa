@@ -1,0 +1,310 @@
+
+            .subuh, .pagi, .siang, .sore, .malam, .malam1, .begadang {padding:10px 15px;border-radius:8px;display:inline-block;margin-left:20px}
+            .begadang{
+            color: purple;
+            background: #ccf;
+            }
+            .malam1 {
+            color: #ffffdc;
+            background: #555;
+            }
+            .malam{
+            color: #f4f2f1;
+            background: #e49c6c;
+            }
+            .sore {
+            color: red;
+            background: #ffdede;
+            align-items: right;
+            }
+            .siang {
+            color: #6b3696;
+            background: #e6e0eb;
+            }
+            .pagi {
+            color: white;
+            background: #eda840;
+            }
+            .subuh {
+            color: blue;
+            background: #eaff00;
+            }
+
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            }
+
+            h1 {
+            color: #666;
+            text-align: center;
+            padding-top: 30px;
+            }
+
+            h2 {
+            color: #666;
+            margin-top: 30px;
+            }
+
+            p {
+            color: #777;
+            line-height: 1.5;
+            }
+
+            a {
+            color: #6d6a6a;
+            line-height: 1.5;
+            }
+
+            ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: #777;
+            }
+
+            li {
+            margin-bottom: 10px;
+            }
+
+            .box {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #dce8f9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            /* Warna-warna tambahan */
+            .bg-blue {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+            }
+
+            .bg-green {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+            }
+
+            .bg-orange {
+            background-color: #e67e22;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+            }
+
+            .bg-purple {
+            background-color: #9b59b6;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+            }
+
+            .bg-red {
+            background-color: #ff0707;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+            }
+
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            iframe{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            button{
+                font-family: sans-serif;
+                font-size: 15px;
+                background: #22a4cf;
+                color: white;
+                border: white 3px solid;
+                border-radius: 5px;
+                padding: 12px 20px;
+                margin-top: 10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            button:hover{
+                opacity:0.9;
+            }
+            
+            .calculator {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid #ffffff;
+                border-radius: 5px;
+                background-color: #dce8f9;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+            .calculator input[type="text"] {
+                width: 300px;
+                font-size: 24px;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: none;
+                border-radius: 5px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .calculator button {
+                width: 48px;
+                height: 48px;
+                font-size: 18px;
+                margin-right: 5px;
+                margin-bottom: 5px;
+                border: none;
+                border-radius: 5px;
+                background-color: #007BFF;
+                color: #fff;
+                cursor: pointer;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .calculator button:hover {
+                background-color: #0056b3;
+            }
+
+            select{
+                width: 300px;
+                font-size: 20px;
+                padding: 5px;
+                margin-bottom: 10px;
+                border: none;
+                border-radius: 5px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            input{
+                width: 300px;
+                font-size: 24px;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: none;
+                border-radius: 5px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .table1 {
+                font-family: sans-serif;
+                color: #444;
+                border-collapse: collapse;
+                width: 50%;
+                border: 1px solid #f2f5f7;
+            }
+             
+            .table1 tr th{
+                background: #35A9DB;
+                color: #fff;
+                font-weight: normal;
+            }
+             
+            .table1, th, td {
+                padding: 8px 20px;
+                text-align: center;
+            }
+             
+            .table1 tr:hover {
+                background-color: #f5f5f5;
+            }
+             
+            .table1 tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            .btn {
+                border: none;
+                background-color: inherit;
+                padding: 14px 28px;
+                font-size: 16px;
+                cursor: pointer;
+                display: inline-block;
+              }
+              
+              /* On mouse-over */
+              .btn:hover {background: #eee;}
+              
+              .success {color: green;}
+              .info {color: dodgerblue;}
+              .warning {color: orange;}
+              .danger {color: red;}
+              .default {color: black;}
+
+              .btn {
+                border: none;
+                background-color: inherit;
+                padding: 14px 28px;
+                font-size: 16px;
+                cursor: pointer;
+                display: inline-block;
+            }
+            
+            /* Green */
+            .success {
+                color: green;
+            }
+            
+            .success:hover {
+                background-color: #04AA6D;
+                color: white;
+            }
+            
+            /* Blue */
+            .info {
+                color: dodgerblue;
+            }
+            
+            .info:hover {
+                background: #2196F3;
+                color: white;
+            }
+            
+            /* Orange */
+            .warning {
+                color: orange;
+            }
+            
+            .warning:hover {
+                background: #ff9800;
+                color: white;
+            }
+            
+            /* Red */
+            .danger {
+                color: red;
+            }
+            
+            .danger:hover {
+                background: #f44336;
+                color: white;
+            }
+            
+            /* Gray */
+            .default {
+                color: black;
+            }
+            
+            .default:hover {
+                background: #e7e7e7;
+            }
+            
